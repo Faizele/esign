@@ -1,0 +1,29 @@
+{
+    "name": "faizel/esign",
+    "description": "e\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000 PHP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Faizel\\Esign\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Faizel\\Esign\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "faizel",
+            "email": "465423056@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}
