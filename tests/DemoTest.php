@@ -8,7 +8,13 @@ class DemoTest extends TestCase
 {
     public function testHello()
     {
-        $str = Tool::Hello();
-        self::assertEquals('Hello world',$str);
+        $str = Tool::hello();
+        self::assertEquals('hello',$str);
+    }
+
+    public function testWorld()
+    {
+        $str = Tool::world();
+        self::assertEquals('world',$str);
     }
 }

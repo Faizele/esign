@@ -9,9 +9,16 @@ class Tool
 
     }
 
-    public static function Hello()
+    public static function hello()
     {
-        $str = 'Hello world';
+        $str = 'hello';
+        echo $str;
+        return $str;
+    }
+
+    public static function world()
+    {
+        $str = 'world';
         echo $str;
         return $str;
     }
